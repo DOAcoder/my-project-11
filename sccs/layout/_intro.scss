@@ -1,0 +1,191 @@
+#intro {
+  width: 100%;
+  padding-top: 116px;
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .link-cards {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      column-gap: 10px;
+
+      .link-card {
+        display: flex;
+        align-items: center;
+        column-gap: 8.5px;
+
+        a {
+          width: 81px;
+          font-family: "Lato";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 22px;
+          color: #c4c4c4;
+          
+          &:hover{
+            text-decoration: underline;
+          }
+        }
+      }
+      a {
+        width: 50px;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        color: #ba8d5b;
+      }
+    }
+    .title-card {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      h1 {
+        width: 290px;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 56px;
+        letter-spacing: -0.64px;
+        color: #0f1826;
+      }
+      .searching {
+        display: flex;
+        align-items: center;
+        position: relative;
+
+        input {
+          padding: 14px 19px 15.39px 15px;
+          font-family: "Lato";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          display: flex;
+          align-items: center;
+          color: #757575;
+          background: #f7f7f5;
+          border-radius: 100px;
+          border: none;
+        }
+        img {
+          position: absolute;
+          top: 17px;
+          right: 12px;
+        }
+      }
+    }
+    .intro-btn-box {
+      display: flex;
+      align-items: center;
+      column-gap: 16px;
+      margin-bottom: 72px;
+
+      .intro-btn {
+        padding: 16px 26px;
+        background: #f7f7f5;
+        border-radius: 32px;
+        cursor: pointer;
+        border: none;
+
+        &:hover {
+          transition: all 0.01s linear;
+          border: 1px solid #ba8d5b;
+        }
+
+        &.active {
+          background: #ba8d5b;
+        }
+      }
+    }
+
+    .card-boxes {
+      display: flex;
+      align-items: center;
+      column-gap: 31px;
+      margin-bottom: 48px;
+
+      .card-box {
+        width: 543.5px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 24px 24px 42px 24px;
+        background: #f9f8f7;
+        border-radius: 4px;
+
+
+        &_btn-box {
+          display: flex;
+          align-items: center;
+          column-gap: 23px;
+          margin-bottom: 42px;
+          button {
+            padding: 5px 13px 5px 12px;
+            background: #d1d1d1;
+            border-radius: 4px;
+            cursor: pointer;
+            border: none;
+            font-family: "Lato";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 18px;
+            color: #000000;
+          }
+
+          a {
+            font-family: "Lato";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            color: #ba8d5b;
+
+            &:hover{
+                text-decoration: underline;
+            }
+          }
+        }
+
+        &_side {
+          display: flex;
+          align-items: center;
+          column-gap: 12px;
+
+          &-leftside {
+            h2 {
+              font-family: "Lato";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 28px;
+              line-height: 34px;
+              letter-spacing: -0.56px;
+              color: #000000;
+              margin-bottom: 24px;
+            }
+            p {
+              width: 100%;
+              max-width: 266px;
+              font-family: "Lato";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 14px;
+              line-height: 24px;
+              letter-spacing: -0.28px;
+              color: rgba(0, 0, 0, 0.7);
+            }
+          }
+        }
+      }
+    }
+  }
+}
